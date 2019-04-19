@@ -2,8 +2,8 @@ from ambrose_flow import Fully_connected
 from ambrose_flow import DataLoader
 import numpy as np
 # Image files
-train_path = "C:\\Users\\ambro\\Desktop\\Subi_dataset\\train_set\\"
-test_path = "C:\\Users\\ambro\\Desktop\\Subi_dataset\\test_set\\"
+train_path = "data/train_set/"
+test_path = "data/test_set/"
 # Loading in the data & reformatting
 x_train, y_train = DataLoader(train_path,resize_image=True,dims=(100,100)).import_image()
 x_test, y_test = DataLoader(test_path,resize_image=True,dims=(100,100)).import_image()
