@@ -15,7 +15,7 @@ x_train_flatten = x_train.reshape(x_train.shape[0],-1).T/255
 x_test_flatten = x_test.reshape(x_test.shape[0],-1).T/255
 # Reformatting the targets so its m x nx
 y_train_flat = y_train.reshape(y_train.shape[0],-1).T
-y_test_flat = y_test.reshape(y_test.shape[0],-1).T 
+y_test_flat = y_test.reshape(y_test.shape[0],-1).T
 # Training the network
 model = Fully_connected(x_train_flatten, x_test_flatten, y_train_flat, y_test_flat,lr = .0001, epochs = 1550, n_hidden = [30,8], lambd=0)
 pred, pred_test, weights = model.train(print_every = 10)
@@ -54,9 +54,9 @@ for i in range(1,row*column+1):
       if pred_val >= 0.6:
             print("\n\nimage"+" " + str(i-1) + " " +" is the rock!")
       predictions.append(pred_val[0][0])
-#Plotting Predictions..      
+#Plotting Predictions..
 plt.show()
-plt.bar(height,predictions)   
+plt.bar(height,predictions)
 plt.xlabel("images")
 plt.ylabel("predictions")
 plt.title("image predictions plot")
