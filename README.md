@@ -1,12 +1,11 @@
 # Fully connected layer
  I created an **MLP** after taking **Andrew-Ng** course which could be found [**_here_**](https://www.coursera.org/learn/neural-networks-deep-learning?specialization=deep-learning). 
  We learned how to build our own deep learning model from scratch, this code is an example of that. 
- 
+ _I've gotten pretty okay results. With accuracy on the training set being 96% accuracy, and 87% accuracy on the test._
 ## Results
-<img src="images/loss_plot.png">
-<img src="images/images_plot.png">
-<img src="images/prediction_plot.png">
-
+<img src="images/loss_plot.png" width = 300>
+<img src="images/images_plot.png" width = 300>
+<img src="images/prediction_plot.png" width= 300>
 ## Packages that needs to be installed:
 There's a few packages one needs to install to get my **MLP** to work.
 * numpy
