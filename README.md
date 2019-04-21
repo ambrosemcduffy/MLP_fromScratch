@@ -5,7 +5,9 @@
 ## Results
 <img src="images/loss_plot.png" width = 300>
 <img src="images/images_plot.png" width = 300>
-<img src="images/prediction_plot.png" width= 300>
+<img src="images/prediction_plot.png" width= 300> 
+</>
+
 ## Packages that needs to be installed:
 There's a few packages one needs to install to get my **MLP** to work.
 * numpy
