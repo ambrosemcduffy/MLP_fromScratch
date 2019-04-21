@@ -1,6 +1,6 @@
 # Fully connected layer
  I created an **MLP** after taking **Andrew-Ng** course which could be found [**_here_**](https://www.coursera.org/learn/neural-networks-deep-learning?specialization=deep-learning). 
- We learned how to build our own deep learning model from scratch, this could is an example of that. 
+ We learned how to build our own deep learning model from scratch, this code is an example of that. 
 
 ## Packages that needs to be installed:
 There's a few packages one needs to install to get my **MLP** to work.
